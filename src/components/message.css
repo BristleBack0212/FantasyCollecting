@@ -1,0 +1,86 @@
+.test {
+  z-index: 10;
+}
+
+.messageButton {
+  border-radius: 5px;
+  left: 10px;
+  top: 55px;
+  position: fixed; 
+  transition: left .5s;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #002f86;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  z-index: -1;
+}
+
+.messageButton:hover {
+  background-color:  #d6ba8b;
+}
+
+.messagealert {
+  text-align: center;
+  border-radius: 40px;
+  left: 180px;
+  top: 60px;
+  width: 20px;
+  position: fixed; 
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #002f86;
+  color: white;
+  padding: 5px;
+  transition: .5s;
+  z-index: -1;
+  display: none;
+}
+
+.sidebarinitm {
+  border-radius: 0px 5px 5px 0px;
+  height: 200px; /* 100% Full-height */
+  width: 200px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place relative to scroll */
+  top: 55px;
+  left: -200px;
+  transition: left 0.5s;
+  z-index: 100;
+  background-color: #002f86; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  align-content: center;
+}
+
+.sidebarinitm a {
+  cursor: pointer;
+  display: block;
+}
+
+.sidebarinitm a:hover {
+  color: #d6ba8b;
+}
+/* Position and style the close button (top right corner) */
+.closebtn {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: #919191;
+  width: 10px;
+}
+
+.dropdown-contentm {
+  height: 100px;
+  width: 50%;
+  border-radius: 0px 0px 0px 5px;
+  transition: height .5s;
+  display: block;
+  margin: auto;
+  align-content: center;
+  background-color: #ffffffb0;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

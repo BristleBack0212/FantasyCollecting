@@ -1,0 +1,115 @@
+.galleryDropdown {
+  color: white;
+  overflow: scroll;
+  position: absolute;
+  align-content: center;
+  height: 600px;
+  width: 75%;
+  top: -600px;
+  transition: top .5s;
+  left: 200px;
+  background-color: #002f86;
+  z-index: 1;
+}
+
+.galleryDropdownAdmin {
+  color: white;
+  overflow: scroll;
+  position: absolute;
+  align-content: center;
+  height: 600px;
+  width: 75%;
+  top: -600px;
+  transition: top .5s;
+  left: 200px;
+  background-color: #002f86;
+  z-index: 100;
+}
+
+.tradeTableDropdown {
+  color: white;
+  overflow: scroll;
+  position: absolute;
+  align-content: center;
+  height: 600px;
+  width: 100%;
+  top: -600px;
+  transition: top .5s;
+  background-color: #d6ba8b;
+  z-index: auto;
+}
+
+.galleryButton {
+  border-radius: 5px;
+  left: 10px;
+  top: 105px;
+  position: fixed; 
+  transition: left .5s;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #002f86;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.galleryButtonAdmin {
+  border-radius: 5px;
+  left: 10px;
+  top: 55px;
+  position: fixed; 
+  transition: left .5s;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #002f86;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.galleryButton:hover {
+  background-color: #d6ba8b;
+}
+
+.sidebarinit {
+  border-radius: 0px 5px 5px 0px;
+  height: 200px; /* 100% Full-height */
+  width: 200px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place relative to scroll */
+  top: 55px;
+  left: -200px;
+  transition: left 0.5s;
+  z-index: 100;
+  background-color: #002f86; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  /* transition: width 0.5s; 0.5 second transition effect to slide in the sidebar */
+  align-content: center;
+}
+/* The sidebar links */
+
+/* When you mouse over the navigation links, change their color */
+.sidebarinit a:hover {
+  color: #d6ba8b;
+}
+/* Position and style the close button (top right corner) */
+.closebtn {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: #919191;
+}
+
+.dropdown-content {
+  height: 0;
+  width: 50%;
+  border-radius: 0px 0px 0px 5px;
+  transition: height .5s;
+  display: block;
+  margin: auto;
+  align-content: center;
+  background-color: #ffffffb0;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

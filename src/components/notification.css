@@ -1,0 +1,17 @@
+.notification {
+  color: black;
+  position: fixed;
+  top: -200px;
+  right: 0px;
+  text-align: center;
+  width: 200px;
+  background-color: #d6ba8b;
+  padding: 30px;
+  transition: 1s;
+  overflow-x: wrap;
+  border-radius: 5px;
+  z-index: 1000;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
